@@ -1,0 +1,9 @@
+﻿@model Service
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="~/assets/img/services/@Model.ImageUrl" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">@Model.Name</h5>
+    <p class="card-text">@Model.Description</p>
+    <a asp-action="index" asp-controller="service" class="btn btn-primary">Go back</a>
+  </div>
+</div>
